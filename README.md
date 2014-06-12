@@ -1,5 +1,26 @@
-cs1504
-======
+#cs1504
+
+## Using the Scanner
+
+This information is documented elsewhere online, but briefly:
+
+### Clear the scanner
+
+This can be done inside the cs1504 code. There is a line at the end of the python file that can be commented if you do not wish the barcodes to be cleared automatically when the script is finished running. Otherwise, to clear the scanner, hold down the small minus button for 5 seconds or so.
+
+### Delete scan
+
+You can delete the last instance of a certain barcode by holding down the minus sign and scanning a barcode. Do not hold the minus sign too long or the entire set of files will be deleted as well.
+
+### Toggle volume
+
+You can mute or unmute the scanner by holding down the plus button for 10 or so seconds
+
+### Other considerations
+
+Be aware that the scanner can only hold about 140 scans. Do not expect it to handle weeks' worth of data.
+
+Other functions can be seen in the python code. The python code is by no means an exhaustive listing of functionality for the scanner, and the scanner can be further programmed and new functions can be assigned to buttons. I just have never researched this.
 
 ## Installation
 
